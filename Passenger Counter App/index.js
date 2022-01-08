@@ -1,14 +1,13 @@
-let lapsCompleted = 0
+// initialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked (log it out)
+// change the count-el in the html to reflect the new count
 
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
+let count = 0
 
-function incrementLap() {
-    lapsCompleted = lapsCompleted + 1
+function increment(){
+    count = count + 1
+    console.log(count)
 }
 
-incrementLap()
-incrementLap()
-incrementLap()
-
-console.log(lapsCompleted)
+increment()

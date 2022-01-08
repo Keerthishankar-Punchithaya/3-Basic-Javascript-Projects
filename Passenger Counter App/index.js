@@ -1,12 +1,11 @@
-let name = "42"
-let greeting = "Hi, my name is "
-let myGreeting = greeting + name
+// Grab the welcome-el paragraph and store it in a variable called welcomeEl
+let welcomeEl = document.getElementById("welcome-el")
 
-console.log(myGreeting)
+// Create two variables (name & greeting) that contains your name
+// and the greeting we want to render on the page
 
-let points = "4"
-let bonusPoints = "10"
+let name = "Keerthishankar"
+let greeting = "Welcome back "
 
-let totalPoints = points + bonusPoints
-
-console.log(totalPoints)
+// Render the welcome message using welcomeEl.innerText
+welcomeEl.innerText = greeting + name

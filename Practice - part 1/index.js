@@ -1,8 +1,8 @@
-// Create two variables, firstName and lastName
-let firstName = "Keerthishankar"
-let lastName = "Punchithaya"
-// Concatenate the two variables into a third variable called fullName
-let fullName = firstName + " " + lastName
+let name = "Keerthishankar"
+let greeting = "Hi there"
 
-// Log fullName to the console
-console.log(fullName)
+function greet() {
+    console.log(greeting + ", " + name + "!")
+}
+
+greet()

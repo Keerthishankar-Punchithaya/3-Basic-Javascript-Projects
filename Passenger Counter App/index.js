@@ -1,13 +1,11 @@
-let countEl = document.getElementById("count-el") 
-let count = 0
+let username = "per"
 
-function increment(){
-    count = count + 1
-    countEl.innerText = count
-}
+// Create a variable , message, that stores the string: "You have three new notifications"
 
+let message = "You have three new notifications"
 
-function save() {
-    console.log(count)
-}
+let messageToUser = message + ", " + username + "!"
 
+console.log(messageToUser)
+
+// Create a variable, messageToUser, that contains the messagewe have logged

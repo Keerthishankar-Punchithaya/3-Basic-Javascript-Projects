@@ -19,3 +19,5 @@ if (sum <= 20) {
 
 // CASH OUT!
 console.log(hasBlackJack)
+
+console.log(isAlive)

@@ -1,10 +1,12 @@
-let likesDocumentaries = true
-let likesStartups = false
-
-if ( likesDocumentaries === true || likesStartups === true) {
-    recommendMovie()
+let course = {
+    title: "qwerty",
+    lessons: 14,
+    creator: "creator",
+    length: 63,
+    level: 2,
+    isFree: true,
+    tags: ["html","css"]
 }
 
-function recommendMovie() {
-    console.log("Hey, check out this new film we think you will like!")
-}
+console.log( course["tags"] )
+

@@ -1,3 +1,3 @@
-for ( let count = 1; count < 11; count += 1 ) {
-    console.log(count)
+for (let i = 0; i < 6; i += 1) {
+    console.log(i)
 }

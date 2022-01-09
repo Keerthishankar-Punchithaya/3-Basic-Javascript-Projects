@@ -6,4 +6,7 @@ let featuredPosts = [
     "I've relaunched "
 ]
 
+console.log(featuredPosts[0])
+console.log(featuredPosts.length)
+
 let exp = ["123", "abc", "456"]

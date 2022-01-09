@@ -1,14 +1,19 @@
-// Check if the person is old enough to enter the nightclub (21)
-// Log a suitable message to the console in both cases
+let firstCard = 10
+let secondCard = 7
+let sum = firstCard + secondCard
 
-let age = 21
+// Write the conditional according to these rules:
 
-// If less than 21 -> "You can not enter the club!"
-if (age < 21) {
-    console.log("You can not enter the club!")
-} else if (age == 21) {
-    console.log("You are welcome!")
-}
-else {
-    console.log("Welcome!")
+// if less than or equal to 20 -> "Do you want to draw a new card?"
+// else if exactly 21 -> "Wohoo! You've got Blackjack!"
+// else -> "You're out of the game!"
+
+
+
+if (sum <= 20) {
+    console.log("Do you want to draw a new card?")
+} else if (sum === 21) {
+    console.log("Wohoo! You've got Blackjack!")
+} else {
+    console.log("You're out of the game!")
 }

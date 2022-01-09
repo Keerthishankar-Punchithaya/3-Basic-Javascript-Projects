@@ -1,3 +1,3 @@
-let flooredNumber = Math.floor(12.9999999)
+let randomNumber = Math.floor( Math.random() * 6 )
 
-console.log(flooredNumber)
+console.log(randomNumber)

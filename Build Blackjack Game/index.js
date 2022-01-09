@@ -55,9 +55,7 @@ function renderGame() {
 function newCard() {
     let card = getRandomCard()
     sum += card
-    // Push the card to the card array
-    cards.push()
-    console.log(cards)
+    cards.push(card)
     renderGame()
 }
 

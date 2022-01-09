@@ -1,5 +1,7 @@
-let cards = [4, 5, 6]
+let array = ["123", "456", "789"]
 
-for (let i = 0; i < cards.length; i++) {
-    console.log(cards[i])
+let arrayEl = document.getElementById("array-el")
+
+for (let i = 0; i < array.length; i++) {
+    arrayEl.textContent += array[i] + " "
 }

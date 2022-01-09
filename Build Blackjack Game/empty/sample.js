@@ -1,12 +1,10 @@
-let randomNumber = Math.floor( Math.random() * 6 ) + 1
+let hasCompletedCourse = true
+let givesCertificate = true
 
-console.log(randomNumber)
-
-// Create a function, rollDice(), that returns a random number between 1 and 6
-
-function rollDice() {
-    let randomNumber = Math.floor( Math.random() * 6 ) + 1
-    return randomNumber
+if (givesCertificate === true &&  givesCertificate === true) {
+        generateCertificate()
 }
 
-console.log( rollDice() )
+function generateCertificate() {
+    console.log("Generating certificate....")
+}

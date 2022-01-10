@@ -1,6 +1,8 @@
-let dayOfMonth = 13
-let weekday = "Friday"
+let hands = ["rock", "paper", "scissor"]
 
-if (dayOfMonth === 13 && weekday === "Friday") {
-    console.log("{}")
+function getHand() {
+    let randomIndex = Math.floor( Math.random() * 3 )     //0-2.9999
+    return hands[randomIndex]
 }
+
+console.log( getHand() )

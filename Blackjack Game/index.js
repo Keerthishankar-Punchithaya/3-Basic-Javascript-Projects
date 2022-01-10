@@ -1,12 +1,7 @@
 let player = {
     name: "Keerthishankar",
-    chips: 200,
-    sayHello: function() {
-        console.log("Hello!")
-    }
+    chips: 200
 }
-
-player.sayHello()
 
 let cards = [] //array - ordered list of items
 let sum = 0
@@ -42,7 +37,6 @@ function startGame() {
 
 function renderGame() {
     cardsEl.textContent = "Cards: " 
-    // Create  a for loop that renders out all the cards instead of just two
     for (let i = 0; i < cards.length; i++) {
         cardsEl.textContent += cards[i] + " "
     }
@@ -62,13 +56,10 @@ function renderGame() {
 
 
 function newCard() {
-    if (isAlive ==== true && hasBlackJack === false) {
+    if (isAlive === true && hasBlackJack === false) {
         let card = getRandomCard()
         sum += card
         cards.push(card)
         renderGame()
     }
 }
-
-
-

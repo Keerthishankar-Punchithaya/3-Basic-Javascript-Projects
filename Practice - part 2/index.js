@@ -1,8 +1,6 @@
-let array = ["123","456","789","/*-"]
+let dayOfMonth = 13
+let weekday = "Friday"
 
-array.pop()
-array.push("!@#")
-
-array.shift()
-array.unshift("%^&*")
-console.log(array)
+if (dayOfMonth === 13 && weekday === "Friday") {
+    console.log("{}")
+}

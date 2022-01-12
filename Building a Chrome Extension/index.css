@@ -1,32 +1,3 @@
-/* body {
-    margin: 0;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #13ada8;
-    margin-bottom: 4px;
-    margin-right: 4px;
-}
-
-/* button {
-    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
-    color: rgb(23, 2, 53);
-    padding: 10px 20px;
-    border: none;
-    font-weight: bold;
-} */
-
-
-
-
-
-
-
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap");
 
@@ -75,6 +46,7 @@ body {
     justify-content: center;
     grid-gap: 40px 25px;
 }
+
 
 button,
 [role=button] {
@@ -155,4 +127,44 @@ button.icon svg,
     margin-top: 3px;
     width: 30px;
     height: 30px;
+}
+
+
+
+
+
+/* body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #13ada8;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+/* button {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    color: rgb(23, 2, 53);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+} */
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    min-height: 100vh;
 }

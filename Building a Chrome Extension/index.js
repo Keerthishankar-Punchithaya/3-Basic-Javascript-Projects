@@ -1,5 +1,9 @@
-let box = document.getElementById("box")
+let inputBtn = document.getElementById("input-btn")
 
-box.addEventListener("click", function() {
-    console.log("I want to open the box!")
-})
+// inputBtn.addEventListener("click", function() {
+//     console.log("Input Button clicked!")
+// })
+
+function saveLead() {
+    console.log("Button clicked!")
+}

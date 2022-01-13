@@ -1,9 +1,12 @@
-let inputBtn = document.getElementById("input-btn")
+let myLeads = []
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
 
-// inputBtn.addEventListener("click", function() {
-//     console.log("Input Button clicked!")
-// })
 
-function saveLead() {
+inputBtn.addEventListener("click", function() {
     console.log("Button clicked!")
-}
+})
+
+// function saveLead() {
+//     console.log("Button clicked!")
+// }

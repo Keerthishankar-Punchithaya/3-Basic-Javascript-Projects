@@ -1,12 +1,12 @@
-let myLeads = []
-const inputEl = document.getElementById("input-el")
-const inputBtn = document.getElementById("input-btn")
+const basePrice = 520
+const discount = 120
+let shippingCost = 12
+let shippingTime = "5-12 days"
 
 
-inputBtn.addEventListener("click", function() {
-    console.log("Button clicked!")
-})
+shippingCost = 15
+shippingTime = "7-14 days"
 
-// function saveLead() {
-//     console.log("Button clicked!")
-// }
+const fullPrice = basePrice - discount + shippingCost
+
+console.log("Total cost: " + fullPrice + ". It will arrive in" + shippingTime)

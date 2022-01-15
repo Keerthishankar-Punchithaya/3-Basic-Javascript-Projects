@@ -168,3 +168,18 @@ input {
     margin: 0 auto;
     min-height: 100vh;
 }
+
+/* style the list */
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #82a6a5;
+}

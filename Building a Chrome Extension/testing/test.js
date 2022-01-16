@@ -1,10 +1,7 @@
-let truthOfFalse = Boolean("")
+const welcomeEl = document.getElementById("welcome-el")
 
-console.log(truthOfFalse)
+function greetUser(name) {
+    welcomeEl.textContent = "Welcome back, " + name + " 👋"
+}
 
-console.log(Boolean(""))
-console.log(Boolean("0"))
-console.log(Boolean(100))
-console.log(Boolean(null))
-console.log(Boolean([0]))
-console.log(Boolean(-0))
+greetUser()

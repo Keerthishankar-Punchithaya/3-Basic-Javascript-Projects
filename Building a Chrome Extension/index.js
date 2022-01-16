@@ -7,7 +7,11 @@ const ulEl = document.getElementById("ul-el")
 let name = localStorage.getItem("myName")
 console.log(name)
 
-// localStorage.clear()
+localStorage.clear()
+
+let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
+
+console.log(leadsFromLocalStorage)
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)

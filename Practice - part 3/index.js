@@ -1,15 +1,17 @@
-function generateSentence(desc, arr) {
-    let baseString = `The ${arr.length} ${desc} are `
-    const lastIndex = arr.length - 1
-    for (let i = 0; i < arr.length; i++) {
-        if (i === lastIndex) {
-            baseString += arr[i];
-        } else {
-            baseString += arr[i] + ", "
-        }
+const imgs = [
+    "https://images.unsplash.com/photo-1642172430100-1765a722dd74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "https://images.unsplash.com/photo-1642172430100-1765a722dd74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "https://images.unsplash.com/photo-1642172430100-1765a722dd74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+]
+
+const container = document.getElementById("container")
+
+function renderImages() {
+    let imgsDOM = ""
+    for (let i = 0; i < imgs.length; i++) {
+        imgsDOM += `<img alt="images" class="team-img" src="${imgs[i]}">`
     }
-    return baseString
+    container.innerHTML = imgsDOM
 }
 
-const sentence = generateSentence("highest mountains",["Mount Everest","K2"])
-console.log(sentence)
+renderImages()

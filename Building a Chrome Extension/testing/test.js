@@ -1,10 +1,20 @@
-const recipient = "123"
+// const credits = 0
 
-const sender = "Keerthishankar"
+// if (credits > 0) {
+//     console.log("Let's play 🎰")
+// } else {
+//     console.log("Sorry, you have no credits ")
+// }
 
-const email = `
-    Hey ${recipient}! 
-    How is it going? 
-    Cheers ${sender}
-`
-console.log(email)
+let currentViewers = null
+
+currentViewers = ["abc", "def"]
+
+console.log(currentViewers[0])
+
+// currentViewers = null
+
+// if (currentViewers) {
+//     console.log("we have viewers")
+// }
+

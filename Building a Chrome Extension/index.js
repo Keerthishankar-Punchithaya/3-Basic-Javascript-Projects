@@ -2,16 +2,14 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
-// localStorage.setItem("myName", "Keerthishankar")
-
-let name = localStorage.getItem("myName")
-console.log(name)
-
-localStorage.clear()
 
 let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
-
 console.log(leadsFromLocalStorage)
+
+if (leadsFromLocalStorage) {
+    myLeads = leadsFromLocalStorage
+    renderLeads()
+}
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)

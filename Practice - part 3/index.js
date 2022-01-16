@@ -1,4 +1,16 @@
-// localStorage.setItem("myCredits", "100")
+let data = [
+    {
+        player: "Abc",
+        score: 52
+    },
+    {
+        player: "Def",
+        score: 41
+    }
+]
 
-let myCredits = localStorage.getItem("myCredits")
-console.log(myCredits)
+const personBtn = document.getElementById("person-btn")
+
+personBtn.addEventListener("click", function() {
+    console.log(data[0].score)
+})

@@ -1,7 +1,7 @@
 const welcomeEl = document.getElementById("welcome-el")
 
-function greetUser(name) {
-    welcomeEl.textContent = "Welcome back, " + name + " 👋"
+function greetUser(greeting, name, emoji) {
+    welcomeEl.textContent = `${greeting}, ${name}  ${emoji}`
 }
 
-greetUser()
+greetUser("Hello", "Keerthishankar", "👋")

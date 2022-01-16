@@ -1,4 +1,4 @@
-
+/* 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap");
 
 @-webkit-keyframes active {
@@ -128,9 +128,9 @@ button.icon svg,
     margin-top: 3px;
     width: 30px;
     height: 30px;
-}
+} */
 
-
+/* codepen css end */
 
 
 
@@ -149,14 +149,17 @@ input {
     margin-right: 4px;
 }
 
-/* button {
+button {
     background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
     color: rgb(23, 2, 53);
     padding: 10px 20px;
-    border: none;
+    border: 1px solid red;
     font-weight: bold;
-} */
+}
 
+#delete-btn {
+    background: white;
+}
 
 /* extra */
 .container {

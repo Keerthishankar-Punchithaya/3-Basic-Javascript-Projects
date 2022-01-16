@@ -1,9 +1,4 @@
-let myCourses = ["Learn CSS Animations", "UI Design Fundamentals", "Intro to Clean Code"]
+// localStorage.setItem("myCredits", "100")
 
-function logItems(arr) {
-    for ( let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
-    }
-}
-
-logItems(myCourses)
+let myCredits = localStorage.getItem("myCredits")
+console.log(myCredits)

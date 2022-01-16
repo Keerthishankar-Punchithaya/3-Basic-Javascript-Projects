@@ -1,13 +1,7 @@
-// const welcomeEl = document.getElementById("welcome-el")
-
-function greetUser(greeting, name, emoji) {
-    welcomeEl.textContent = `${greeting}, ${name}  ${emoji}`
-}
-let hi = "Hello"
-greetUser(hi, "Keerthishankar", "👋")
-
-function add(num1, num2) {
-    return num1 + num2 
+function getFirst(arr) {
+    return arr[0];
 }
 
-console.log( add(3, 4) )
+let firstCard = getFirst([10, 2, 5])
+
+console.log(firstCard)

@@ -1,7 +1,5 @@
-const welcomeEl = document.getElementById("welcome-el")
-
-function greetUser(greeting, name, emoji) {
-    welcomeEl.textContent = `${greeting}, ${name}  ${emoji}`
+function add(num1, num2) {
+    return num1 + num2 
 }
 
-greetUser("Hello", "Keerthishankar", "👋")
+console.log( add(3, 4) )
